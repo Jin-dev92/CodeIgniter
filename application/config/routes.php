@@ -49,6 +49,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'welcome';
+$route['default_controller'] = 'board';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+// $route['post/(:num)'] = "topic/get/$1"; //url에 왼쪽이 들어오는 경우 오른쪽 루트로 이동
